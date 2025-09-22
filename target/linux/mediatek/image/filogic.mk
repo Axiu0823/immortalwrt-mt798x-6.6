@@ -654,7 +654,7 @@ define Device/cmcc_rax3000m-stock
   DEVICE_PACKAGES := kmod-usb3 f2fsck mkf2fs
   BLOCKSIZE := 128k
   PAGESIZE := 2048
-  IMAGE_SIZE := 116736k
+  IMAGE_SIZE := 240128k
   IMAGE/sysupgrade.bin := sysupgrade-tar | append-metadata
 endef
 TARGET_DEVICES += cmcc_rax3000m-stock
